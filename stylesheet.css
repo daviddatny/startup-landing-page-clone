@@ -50,10 +50,51 @@ table {
 /* End of reset */ 
 
 body {
-	background-color: lightgrey;
+    background-color: LightGray;
+    max-width: 960px;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: lato;
+    margin-top: 10px;
+
 }
 
 div {
-	border: 1px solid chocolate;
+    border: 1px solid Chocolate;
+    display: inline-block;
 }
 
+a { 
+	text-decoration: none;
+	color: grey;
+	font-size: 16px;
+}
+
+
+
+ul {
+	display: inline-block;
+	margin-right: 30px;
+	float: right;
+	line-height: 42px;
+	vertical-align: middle;
+	
+}
+
+li {
+	display: inline-block;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+.logo {
+	
+	width: 25px;
+	display: inline-block;
+}
+
+li:first-child a {
+	font-weight: 600;
+	color: black;
+}
