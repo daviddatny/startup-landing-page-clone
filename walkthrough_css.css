@@ -49,6 +49,7 @@ table {
 
 /* End of reset */ 
 
+
 .top-navigation {
 	background-color: #fff;
 }
@@ -57,4 +58,41 @@ table {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
+
+.logo {
+	height:70px;
+}
+
+.links{
+	display: inline-block;
+	float: right;
+	margin-top: 35px;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.links li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 600;
+} 
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	color:orange;
+}
+
+
