@@ -93,8 +93,6 @@ ol, ul {
 	margin: 0 auto;
 	width: 100%;
 	background-position: center bottom;
-
-
 }
 
 .hero-image > .content {
@@ -154,13 +152,13 @@ ol, ul {
 
 /* Icon Section */
 
+ section {
+  margin-bottom: 100px;
+ }
+
 .middle  {
   text-align: center;
   padding-top: 125px;
-}
-
-.content {
-  
 }
 
 .bottom-title {
@@ -185,5 +183,40 @@ ol, ul {
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+}
 
+
+/* Icon Section */
+
+
+.social {
+  display: inline-block;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+
+}
+
+.bottom {
+  text-align: center;
+  border-top: 1px solid lightgrey;
+}
+
+i { 
+  margin-top: 18px;
+
+}
+
+.twitter {
+  color: #4099FF;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #3b5998;
 }
