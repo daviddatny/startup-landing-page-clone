@@ -1,0 +1,240 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+/* End of Reset */
+/* Start of Custom Styles */
+.content {
+    padding: 0 15px;
+}
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    border-bottom: 1px solid lightgrey;
+}
+.top-navigation > .content {
+    margin: 0 auto;
+    width: 800px;
+    height: 70px;
+}
+.top-navigation .logo {
+    height: 70px;
+}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 17px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+/* Hero Image Section */
+
+.hero-image {
+	background: url("images/first-background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 650px;
+	margin: 0 auto;
+	width: 100%;
+	background-position: center bottom;
+}
+
+.hero-image > .content {
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 200px;
+}
+
+
+.title, .subtitle {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 10px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 100;
+  }
+
+.subtitle {
+  font-size: 25px;
+  font-weight: 100;
+  }
+
+
+
+.button {
+ background: #f15a29;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  border: none;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background: #d9400e;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  border: none;
+  margin-top: 20px;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+/* Icon Section */
+
+ section {
+  margin-bottom: 100px;
+ }
+
+.middle  {
+  text-align: center;
+  padding-top: 125px;
+}
+
+.bottom-title {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding-bottom: 50px;
+}
+
+
+.icons {
+  height: 125px;
+  margin-bottom: 50px;
+}
+
+.icon-box{
+  display: inline-block;
+  margin: 5px;
+}
+
+.icon-box > p {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+
+/* footer Section */
+
+footer {
+  margin-bottom: 150px;
+}
+
+.social {
+  display: inline-block;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+
+}
+
+.bottom {
+  text-align: center;
+  border-top: 1px solid lightgrey;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.bottom > p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 15px;
+}
+
+i { 
+  margin-top: 10px;
+
+}
+
+.twitter {
+  color: #4099FF;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #3b5998;
+}
+
+.copyright {
+  font-size: 14px;
+  color: grey;
+}
